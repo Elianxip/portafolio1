@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at top left, #000428, #004e92);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #00c3ff, #7700ff);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.7);
+}
+
+header img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #00feba;
+  margin-bottom: 20px;
+  transition: transform 0.4s ease;
+}
+
+header img:hover {
+  transform: scale(1.15) rotate(5deg);
+}
+
+header h1 {
+  font-size: 3.5rem;
+  color: #00feba;
+  text-shadow: 0 0 15px #00feba;
+  margin-bottom: 15px;
+}
+
+header p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+header a img {
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;
+}
+
+header a img:hover {
+  transform: scale(1.3) rotate(10deg);
+}
+
+section {
+  padding: 60px 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: #00feba;
+  border-left: 6px solid #00feba;
+  padding-left: 15px;
+  text-shadow: 0 0 10px #00feba;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 30px #00feba;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 50px #00feba;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+blockquote {
+  font-style: italic;
+  color: #00feba;
+  border-left: 4px solid #00feba;
+  padding-left: 15px;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+  font-size: 1rem;
+}
+
+a.download-btn {
+  display: inline-block;
+  background: linear-gradient(45deg, #00feba, #7700ff);
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  box-shadow: 0 0 15px #00feba;
+  transition: all 0.3s ease;
+}
+
+a.download-btn:hover {
+  background: linear-gradient(45deg, #7700ff, #00feba);
+  box-shadow: 0 0 30px #00feba;
+}
